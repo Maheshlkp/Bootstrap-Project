@@ -1,0 +1,58 @@
+.navbar-light .navbar-brand{
+    color: blueviolet;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background:url("../images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2>span{
+    background-color: white;
+}
+h3{
+    color:white;
+}
+
+.btn-fb:hover{
+    color:white;
+    background-color: blue;
+}
+.btn-tw:hover{
+    color:white;
+    background-color: blue;
+}
+
+@media (min-width:768px){
+    h2{
+        background-color:none;
+    }
+    h3{
+        background-color: goldenrod;
+    }
+}
+
+@media (max-width:992px){
+    h2{
+        background-color: white;
+    }
+    h3{
+        background-color: white;
+        opacity: 2em;
+    }
+}
+
+@media (max-width:768px){
+    h2{
+        background-color: skyblue;
+    }
+    h3{
+        background-color: grey;
+    }
+}
